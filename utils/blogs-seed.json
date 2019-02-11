@@ -1,0 +1,28 @@
+[
+  {
+    "name": "chunksofcode",
+    "url": "https://medium.com",
+    "slugSuffix": "chunksofcode",
+    "sharePrefix": "[Technical]"
+  },
+  {
+    "name": "Mensplainr",
+    "url": "https://medium.com",
+    "slugSuffix": "mensplainr"
+  },
+  {
+    "name": "Wammed",
+    "url": "https://medium.com",
+    "slugSuffix": "wammed"
+  },
+  {
+    "name": "timigod",
+    "url": "https://medium.com",
+    "slugSuffix": "timigod"
+  },
+  {
+    "name": "Timi's Backpack",
+    "url": "https://medium.com",
+    "slugSuffix": "timis-backpack"
+  }
+]

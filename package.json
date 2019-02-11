@@ -1,0 +1,24 @@
+{
+  "name": "autoshare",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "format": "standard --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Timi Ajiboye",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "agenda": "^2.0.2",
+    "mongoose": "^5.4.11",
+    "dotenv": "^6.2.0",
+    "lodash": "^4.17.11"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10",
+    "standard": "^12.0.1"
+  }
+}
