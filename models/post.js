@@ -36,7 +36,7 @@ postSchema.virtual('shareText').get(() => {
 
 postSchema.statics.randomShareable = async() => {
   let randomPost
-  const count = await this.countDocuments({share: true})
+  const count = await this.count({share: true})
   const daysBeforeRepeat = count/2
   let daysPassed = 0
 
