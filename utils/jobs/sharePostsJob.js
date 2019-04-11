@@ -1,17 +1,9 @@
-const Blog = require('../../models/blog')
-const medium = require('../posts-getters/medium')
+const share = require('../share')
 
 module.exports = {
-  key: 'sync posts',
+  key: 'share posts',
   jobFunction: async (job, done) => {
-    const blogs = await Blog.find({})
-    blogs.forEach((blog) => {
-      switch (blog.platform) {
-        case 'medium':
-          medium(blog)
-          break
-      }
-    })
+    share(Post.randomShareable)
     done()
   }
 }
