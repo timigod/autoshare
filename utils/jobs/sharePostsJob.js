@@ -1,4 +1,5 @@
 const share = require('../share')
+const Post = require('../../models/post')
 
 module.exports = {
   key: 'share posts',
