@@ -1,4 +1,4 @@
-const {useSeeds} = require('./settings')
+const { useSeeds } = require('./settings')
 const Blog = require('../models/blog')
 const fs = require('fs')
 const path = require('path')

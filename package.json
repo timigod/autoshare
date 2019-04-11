@@ -15,7 +15,8 @@
     "agenda": "^2.0.2",
     "mongoose": "^5.4.11",
     "dotenv": "^6.2.0",
-    "lodash": "^4.17.11"
+    "lodash": "^4.17.11",
+    "twit": "^2.2.11"
   },
   "devDependencies": {
     "nodemon": "^1.18.10",
