@@ -19,5 +19,3 @@ const createSeedBlogs = require('./utils/createSeedBlogs');
   await agenda.every('1 day', syncPostsJob.key)
   await agenda.every('1 day', scheduleNextDayPostsJob.key)
 })()
-
-

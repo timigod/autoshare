@@ -26,7 +26,7 @@ const postSchema = new Schema({
   }
 })
 
-postSchema.virtual('shareText').get(() => {
+postSchema.virtual('shareText').get(function() {
   const blog = Blog.findOne({ _id: this._id })
   let shareText = ''
   if (blog.sharePrefix) shareText = shareText + blog.sharePrefix + ' '
@@ -34,7 +34,7 @@ postSchema.virtual('shareText').get(() => {
   return shareText
 })
 
-postSchema.statics.randomShareable = async function()  {
+postSchema.statics.randomShareable = async function(){
   let randomPost
   const count = await this.countDocuments({share: true})
   const daysBeforeRepeat = count/2
