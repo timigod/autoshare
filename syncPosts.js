@@ -10,4 +10,4 @@ const medium = require('./utils/posts-getters/medium')
                 break
         }
     })
-})
+})()
