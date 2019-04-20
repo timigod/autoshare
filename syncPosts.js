@@ -1,5 +1,5 @@
-const Blog = require('./models/blog')
-const medium = require('./utils/posts-getters/medium')
+const Blog = require('./models/blog');
+const medium = require('./utils/posts-getters/medium');
 
 (async () => {
     const blogs = await Blog.find({})
@@ -10,4 +10,4 @@ const medium = require('./utils/posts-getters/medium')
                 break
         }
     })
-})()
+})();
